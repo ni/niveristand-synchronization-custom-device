@@ -1,0 +1,26 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\chassis_timesync_custom_device'
+
+[projects.cd]
+path = 'Source\Chassis TimeSync Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration Release'
+
+[[build.steps]]
+name = 'Engine Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'Pharlap'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+name = 'chassis-timesync-custom-device-{veristand_version}'
+dev_xml_path = 'Source\Timing and Sync Chassis TimeSync.xml'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Timing and Sync'

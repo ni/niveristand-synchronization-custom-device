@@ -1,0 +1,15 @@
+Package: chassis-timesync-custom-device-{veristand_version}
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  The Chassis TimeSync Custom Device synchronizes RT system time and PXI chassis clocks. This is accomplished by either reading the PXI chassis clock and setting system time, or by overwriting both system time and the PXI chassis clock when using an external time reference such as the free running clock of a Time-Based Synchronization module, 1588, GPS, PPS, or IRIG-B. This functionality is commonly used for data sampling synchronization and offline data correlation analysis.
+XB-Eula:  
+Priority: standard
+Homepage: https://github.com/NIVeriStandAdd-Ons/Chassis-TimeSync-Custom-Device
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: {nipkg_version}
+XB-DisplayName: Chassis TimeSync Custom Device for VeriStand {veristand_version}
+Depends: 
