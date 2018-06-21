@@ -1,0 +1,182 @@
+explicitActiveChannels: FALSE
+Library: niSync.dll
+class: "niSync"
+flags: 0
+implements: ivi, iviResourceMgr
+sorted: no
+
+attribute: "Two Step Flag"
+	"Advanced:1588:Two Step Flag"
+	bool readonly 1 118F1E
+	//const: NISYNC_ATTR_1588_TWO_STEP_FLAG
+	""
+attribute: "Number Of Ports"
+	"Advanced:1588:Number Of Ports"
+	iL readonly 1 118F1F
+	//const: NISYNC_ATTR_1588_NUMBER_OF_PORTS
+	""
+attribute: "Offset Scaled Log Variance"
+	"Advanced:1588:Offset Scaled Log Variance"
+	iL readonly 1 118F20
+	//const: NISYNC_ATTR_1588_OFFSET_SCALED_LOG_VARIANCE
+	""
+attribute: "Domain Number"
+	"Advanced:1588:Domain Number"
+	iL readwrite 1 118F21
+	//const: NISYNC_ATTR_1588_DOMAIN_NUMBER
+	""
+attribute: "Slave Only"
+	"Advanced:1588:Slave Only"
+	bool readwrite 1 118F22
+	//const: NISYNC_ATTR_1588_SLAVE_ONLY
+	""
+attribute: "Steps Removed"
+	"Advanced:1588:Steps Removed"
+	iL readonly 1 118F23
+	//const: NISYNC_ATTR_1588_STEPS_REMOVED
+	""
+attribute: "Offset From Master"
+	"Advanced:1588:Offset From Master"
+	iL readonly 1 118F24
+	//const: NISYNC_ATTR_1588_OFFSET_FROM_MASTER
+	""
+attribute: "Parent Clock ID"
+	"Advanced:1588:Parent Clock ID"
+	string readonly 1 118F25
+	//const: NISYNC_ATTR_1588_PARENT_CLOCK_IDENTITY
+	""
+attribute: "Parent Port Number"
+	"Advanced:1588:Parent Port Number"
+	iL readonly 1 118F26
+	//const: NISYNC_ATTR_1588_PARENT_PORT_NUMBER
+	""
+attribute: "Parent Stats"
+	"Advanced:1588:Parent Stats"
+	bool readonly 1 118F27
+	//const: NISYNC_ATTR_1588_PARENT_STATS
+	""
+attribute: "Observed Parent Offset Scaled Log Variance"
+	"Advanced:1588:Observed Parent Offset Scaled Log Variance"
+	iL readonly 1 118F28
+	//const: NISYNC_ATTR_1588_OBSERVED_PARENT_OFFSET_SCALED_LOG_VARIANCE
+	""
+attribute: "Observed Parent Clock Phase Change Rate"
+	"Advanced:1588:Observed Parent Clock Phase Change Rate"
+	iL readonly 1 118F29
+	//const: NISYNC_ATTR_1588_OBSERVED_PARENT_CLOCK_PHASE_CHANGE_RATE
+	""
+attribute: "Grandmaster Offset Scaled Log Variance"
+	"Advanced:1588:Grandmaster Offset Scaled Log Variance"
+	iL readonly 1 118F2A
+	//const: NISYNC_ATTR_1588_GRANDMASTER_OFFSET_SCALED_LOG_VARIANCE
+	""
+attribute: "Leap59"
+	"Advanced:1588:Leap59"
+	bool readonly 1 118F2B
+	//const: NISYNC_ATTR_1588_LEAP59
+	""
+attribute: "Leap61"
+	"Advanced:1588:Leap61"
+	bool readonly 1 118F2C
+	//const: NISYNC_ATTR_1588_LEAP61
+	""
+attribute: "Time Traceable"
+	"Advanced:1588:Time Traceable"
+	bool readonly 1 118F2D
+	//const: NISYNC_ATTR_1588_TIME_TRACEABLE
+	""
+attribute: "Frequency Traceable"
+	"Advanced:1588:Frequency Traceable"
+	bool readonly 1 118F2E
+	//const: NISYNC_ATTR_1588_FREQUENCY_TRACEABLE
+	""
+attribute: "Ptp Timescale"
+	"Advanced:1588:Ptp Timescale"
+	bool readonly 1 118F2F
+	//const: NISYNC_ATTR_1588_PTP_TIMESCALE
+	""
+attribute: "Time Source"
+	"Advanced:1588:Time Source"
+	iL enum {"Unknown"=0,"AtomicClock"=1,"Gps"=2,"TerrestrialRadio"=3,"Ptp"=4,"Ntp"=5,"HandSet"=6,"Other"=7,"InternalOscillator"=8} readonly 1 118F30
+	//const: NISYNC_ATTR_1588_TIME_SOURCE
+	""
+attribute: "Log Min Delay Req Interval"
+	"Advanced:1588:Log Min Delay Req Interval"
+	iL readonly 1 118F31
+	//const: NISYNC_ATTR_1588_LOG_MIN_DELAY_REQ_INTERVAL
+	""
+attribute: "Peer Mean Path Delay"
+	"Advanced:1588:Peer Mean Path Delay"
+	fD readonly 1 118F32
+	//const: NISYNC_ATTR_1588_PEER_MEAN_PATH_DELAY
+	""
+attribute: "Log Announce Interval"
+	"Advanced:1588:Log Announce Interval"
+	iL readwrite 1 118F33
+	//const: NISYNC_ATTR_1588_LOG_ANNOUNCE_INTERVAL
+	""
+attribute: "Announce Receipt Timeout"
+	"Advanced:1588:Announce Receipt Timeout"
+	iL readwrite 1 118F34
+	//const: NISYNC_ATTR_1588_ANNOUNCE_RECEIPT_TIMEOUT
+	""
+attribute: "Delay Mechanism"
+	"Advanced:1588:Delay Mechanism"
+	iL enum {"Unknown"=0,"EndToEnd"=1,"PeerToPeer"=2,"Disabled"=3} readwrite 1 118F35
+	//const: NISYNC_ATTR_1588_DELAY_MECHANISM
+	""
+attribute: "Log Min Pdelay Req Interval"
+	"Advanced:1588:Log Min Pdelay Req Interval"
+	iL readwrite 1 118F36
+	//const: NISYNC_ATTR_1588_LOG_MIN_PDELAY_REQ_INTERVAL
+	""
+attribute: "Version Number"
+	"Advanced:1588:Version Number"
+	iL readonly 1 118F37
+	//const: NISYNC_ATTR_1588_VERSION_NUMBER
+	""
+attribute: "Synchronous Ethernet"
+	"Advanced:1588:Synchronous Ethernet"
+	bool readwrite 1 118F38
+	//const: NISYNC_ATTR_1588_SYNCE_ENABLED
+	"A Boolean that specifies whether synchronous Ethernet is enabled."
+attribute: "Survey Length"
+	"Advanced:GPS:Survey Length"
+	iL readwrite 1 118FE6
+	//const: NISYNC_ATTR_GPS_SELF_SURVEY_LENGTH
+	"GPS Self Survey Length in Seconds"
+attribute: "Min Signal Level"
+	"Advanced:GPS:Minimum Signal Level for Fixes"
+	fD readwrite 1 118FE7
+	//const: NISYNC_ATTR_GPS_MIN_SIGNAL_LEVEL
+	"Minimum signal level for tracking GPS Satellites"
+attribute: "PDOP"
+	"Advanced:GPS:Position Dilution of Precision"
+	fD readwrite 1 118FE8
+	//const: NISYNC_ATTR_GPS_PDOP
+	"Describes the geometric strength of satellite configuration on GPS accuracy"
+attribute: "Adjust Time"
+	"Advanced:Time Reference:Adjust Time"
+	fD writeonly 1 118F82
+	//const: NISYNC_ATTR_TIMEREF_ADJUST_TIME
+	"A double that specifies the number of seconds to adjust the clock by."
+attribute: "Clk10 Disciplining Enabled"
+	"Advanced:Time Reference:Clk10 Disciplining Enabled"
+	bool readwrite 1 118F83
+	//const: NISYNC_ATTR_TIMEREF_CLK10_DISCIPLINING_ENABLED
+	"A Boolean that specifies whether Clk10 is to be disciplined to the current time reference."
+attribute: "Clk10 Offset"
+	"Advanced:Time Reference:Clk10 Offset"
+	iL readwrite 1 118F84
+	//const: NISYNC_ATTR_TIMEREF_CLK10_OFFSET
+	"An integer specifying the offset between the clock and PXI_Clk10 in nanoseconds."
+attribute: "Model Code"
+	"Advanced:Device:Model Code"
+	iL readonly 1 118C32
+	//const: NISYNC_ATTR_MODEL_CODE
+	"Returns the model code for the device"
+attribute: "Predicted FPGA Delay"
+	"Advanced:Calibration Properties:Predicted FPGA Delay"
+	fD readonly 1 118CC6
+	//const: NISYNC_ATTR_PREDICTED_FPGA_DELAY
+	"Returns the predicted FPGA delay for the device"  
