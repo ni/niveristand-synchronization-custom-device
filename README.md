@@ -4,7 +4,7 @@ The **Chassis TimeSync Custom Device** synchronizes RT system time and PXI chass
 
 ## LabVIEW Version
 
-LabVIEW 2011
+LabVIEW 2015
 
 ## License
 
