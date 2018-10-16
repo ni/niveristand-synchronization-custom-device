@@ -50,6 +50,58 @@
 				<Path>Timing and Sync\Chassis TimeSync\Chassis TimeSync Configuration.llb\ActionVIOnCompile.vi</Path>
 			</ActionVIOnCompile>
     </Page>
+	<Page>
+		<Name>
+			<eng>Channel (delete protected)</eng>
+			<loc>Channel (delete protected)</loc>
+		</Name>
+		<DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<GUID>C9C36D38-F811-822C-0C95-B5EFD5033E75</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>Absolute</Type>
+			<Path>System UI VIs\Custom Device\Custom Device Channel.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu />
+		<Help>
+			<Item2Launch>
+				<Type>To Base</Type>
+				<Path>Veristand.chm\Custom_Devices_SE.html</Path>
+			</Item2Launch>
+			<FileType>chm</FileType>
+		</Help>
+	</Page>
+	
+	<Page>
+		<Name>
+			<eng>Section (delete protected)</eng>
+			<loc>Section (delete protected)</loc>
+		</Name>
+		<DisallowRenaming>true</DisallowRenaming>
+		<DeleteProtection>true</DeleteProtection>
+		<GUID>297B72C6-21C2-EA0B-6E7C-23F9EC8798A9</GUID>
+		<Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+		<Item2Launch>
+			<Type>Absolute</Type>
+			<Path>System UI VIs\Custom Device\Custom Device Section.vi</Path>
+		</Item2Launch>
+		<RunTimeMenu>
+		</RunTimeMenu>
+		<Help>
+			<Item2Launch>
+				<Type>To Base</Type>
+				<Path>Veristand.chm\Custom_Devices_SE.html</Path>
+			</Item2Launch>
+			<FileType>chm</FileType>
+		</Help>
+	</Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
