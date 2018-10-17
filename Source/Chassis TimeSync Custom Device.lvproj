@@ -1198,6 +1198,35 @@
 			<Item Name="Start Clock Servo.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Start Clock Servo.vi"/>
 			<Item Name="Stop Clock Servo.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Stop Clock Servo.vi"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Engine Release" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D9009AB0-E0C1-4634-81FD-83809332F72B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7F470845-1FAC-41D0-840A-117C01F76230}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].type" Type="Str">LLB</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FCF70596-A9D7-41F9-9250-23C35A321FDD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
