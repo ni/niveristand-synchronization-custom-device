@@ -753,7 +753,6 @@
 			<Item Name="_clkDisc_session_attribute_toString.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_attribute_toString.vi"/>
 			<Item Name="_clkDisc_session_attributes.ctl" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_attributes.ctl"/>
 			<Item Name="_clkDisc_session_closeDevices.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_closeDevices.vi"/>
-			<Item Name="_clkDisc_session_command_clearStatus.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_clearStatus.vi"/>
 			<Item Name="_clkDisc_session_command_create.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_create.vi"/>
 			<Item Name="_clkDisc_session_command_exit.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_exit.vi"/>
 			<Item Name="_clkDisc_session_command_packet.ctl" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_packet.ctl"/>
@@ -803,7 +802,6 @@
 			<Item Name="_clkDisc_session_timeReferenceDeglitcher.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_timeReferenceDeglitcher.vi"/>
 			<Item Name="_clkDisc_session_updateCalculatedOffset.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_updateCalculatedOffset.vi"/>
 			<Item Name="_clkDisc_session_updateTimestamp.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_updateTimestamp.vi"/>
-			<Item Name="Get Clock Servo Status.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Get Clock Servo Status.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1137,7 +1135,6 @@
 			<Item Name="_clkDisc_session_attribute_toString.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_attribute_toString.vi"/>
 			<Item Name="_clkDisc_session_attributes.ctl" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_attributes.ctl"/>
 			<Item Name="_clkDisc_session_closeDevices.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_closeDevices.vi"/>
-			<Item Name="_clkDisc_session_command_clearStatus.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_clearStatus.vi"/>
 			<Item Name="_clkDisc_session_command_create.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_create.vi"/>
 			<Item Name="_clkDisc_session_command_exit.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_exit.vi"/>
 			<Item Name="_clkDisc_session_command_packet.ctl" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_command_packet.ctl"/>
@@ -1187,7 +1184,6 @@
 			<Item Name="_clkDisc_session_timeReferenceDeglitcher.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_timeReferenceDeglitcher.vi"/>
 			<Item Name="_clkDisc_session_updateCalculatedOffset.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_updateCalculatedOffset.vi"/>
 			<Item Name="_clkDisc_session_updateTimestamp.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/_clkDisc_session_updateTimestamp.vi"/>
-			<Item Name="Get Clock Servo Status.vi" Type="VI" URL="../Engine/mdevClkDisc.llb/Get Clock Servo Status.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

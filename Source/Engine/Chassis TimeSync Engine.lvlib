@@ -18,7 +18,6 @@
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Conditionally Increment Data At Index.vi" Type="VI" URL="../Conditionally Increment Data At Index.vi"/>
-			<Item Name="Read Clock Discipline.vi" Type="VI" URL="../Read Clock Discipline.vi"/>
 			<Item Name="Read Time Sync.vi" Type="VI" URL="../Read Time Sync.vi"/>
 			<Item Name="Write Output FIFO.vi" Type="VI" URL="../Write Output FIFO.vi"/>
 		</Item>
