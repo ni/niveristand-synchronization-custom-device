@@ -8,6 +8,7 @@
 		<Item Name="Init" Type="Folder">
 			<Item Name="Calculate Scan Start and Frequency.vi" Type="VI" URL="../Calculate Scan Start and Frequency.vi"/>
 			<Item Name="Create Connections.vi" Type="VI" URL="../Create Connections.vi"/>
+			<Item Name="Fix EtherCAT Error.vi" Type="VI" URL="../Fix EtherCAT Error.vi"/>
 			<Item Name="Get Module Type.vi" Type="VI" URL="../Get Module Type.vi"/>
 			<Item Name="Route Pin To String.vi" Type="VI" URL="../Route Pin To String.vi"/>
 			<Item Name="RT Init.vi" Type="VI" URL="../RT Init.vi"/>
