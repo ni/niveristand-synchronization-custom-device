@@ -7,7 +7,6 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 			<Item Name="SE Initialization VI.vi" Type="VI" URL="../SE Initialization VI.vi"/>
 		</Item>
@@ -15,7 +14,6 @@
 			<Item Name="Auto Select Connections.vi" Type="VI" URL="../Auto Select Connections.vi"/>
 			<Item Name="Check Chassis Master.vi" Type="VI" URL="../Check Chassis Master.vi"/>
 			<Item Name="Create Chans.vi" Type="VI" URL="../Create Chans.vi"/>
-			<Item Name="Delete Item By Name.vi" Type="VI" URL="../Delete Item By Name.vi"/>
 			<Item Name="EnableDisable Control.vi" Type="VI" URL="../EnableDisable Control.vi"/>
 			<Item Name="Error Check Chassis Master.vi" Type="VI" URL="../Error Check Chassis Master.vi"/>
 			<Item Name="Get Channel FIFO locations.vi" Type="VI" URL="../Get Channel FIFO locations.vi"/>
@@ -27,16 +25,12 @@
 			<Item Name="Get Time Ref Properties.vi" Type="VI" URL="../Get Time Ref Properties.vi"/>
 			<Item Name="Get Time Ref Tab.vi" Type="VI" URL="../Get Time Ref Tab.vi"/>
 			<Item Name="Init Main Page Connections GUI.vi" Type="VI" URL="../Init Main Page Connections GUI.vi"/>
-			<Item Name="Integer CompareTo.vi" Type="VI" URL="../Integer CompareTo.vi"/>
-			<Item Name="Migrate 2_0_0.vi" Type="VI" URL="../Migrate 2_0_0.vi"/>
 			<Item Name="Prevent and Clear Backplane Time Ref Selection.vi" Type="VI" URL="../Prevent and Clear Backplane Time Ref Selection.vi"/>
-			<Item Name="Rename Item By Name.vi" Type="VI" URL="../Rename Item By Name.vi"/>
 			<Item Name="Set Connection Properties.vi" Type="VI" URL="../Set Connection Properties.vi"/>
 			<Item Name="Set Custom Route Properties.vi" Type="VI" URL="../Set Custom Route Properties.vi"/>
 			<Item Name="Setup Connection GUI.vi" Type="VI" URL="../Setup Connection GUI.vi"/>
 			<Item Name="sub_EnableDisable Control.vi" Type="VI" URL="../sub_EnableDisable Control.vi"/>
 			<Item Name="sub_EnableDisable Controls.vi" Type="VI" URL="../sub_EnableDisable Controls.vi"/>
-			<Item Name="Version CompareTo.vi" Type="VI" URL="../Version CompareTo.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Connection Selection.ctl" Type="VI" URL="../Connection Selection.ctl"/>
