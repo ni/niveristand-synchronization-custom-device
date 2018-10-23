@@ -12,7 +12,7 @@
 			<Item Name="Get Module Type.vi" Type="VI" URL="../Get Module Type.vi"/>
 			<Item Name="Route Pin To String.vi" Type="VI" URL="../Route Pin To String.vi"/>
 			<Item Name="RT Init.vi" Type="VI" URL="../RT Init.vi"/>
-			<Item Name="Set NISync Plugin Timekeeper.vi" Type="VI" URL="../Set NISync Plugin Timekeeper.vi"/>
+			<Item Name="Set Timekeeper Card.vi" Type="VI" URL="../Set Timekeeper Card.vi"/>
 			<Item Name="Set Timekeeper CLK10 Input.vi" Type="VI" URL="../Set Timekeeper CLK10 Input.vi"/>
 			<Item Name="Set Up Clock Discipline.vi" Type="VI" URL="../Set Up Clock Discipline.vi"/>
 			<Item Name="Set Up TimeKeeper.vi" Type="VI" URL="../Set Up TimeKeeper.vi"/>
