@@ -13,17 +13,9 @@ target = 'My Computer'
 build_spec = 'Configuration Release'
 
 [[build.steps]]
-name = 'PharLap Engine Library'
-type = 'lvBuildSpec'
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
 project = '{cd}'
-target = 'Pharlap'
-build_spec = 'Engine Release'
-
-[[build.steps]]
-name = 'Linux x64 Engine Library'
-type = 'lvBuildSpec'
-project = '{cd}'
-target = 'Linux x64'
 build_spec = 'Engine Release'
 
 [package]
