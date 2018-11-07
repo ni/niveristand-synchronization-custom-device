@@ -15,6 +15,9 @@
 *.aliases
 *.lvlps
 
+# Output directory
+Built/
+
 # =========================
 # Operating System Files
 # =========================

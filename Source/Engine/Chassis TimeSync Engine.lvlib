@@ -8,17 +8,17 @@
 		<Item Name="Init" Type="Folder">
 			<Item Name="Calculate Scan Start and Frequency.vi" Type="VI" URL="../Calculate Scan Start and Frequency.vi"/>
 			<Item Name="Create Connections.vi" Type="VI" URL="../Create Connections.vi"/>
+			<Item Name="Fix EtherCAT Error.vi" Type="VI" URL="../Fix EtherCAT Error.vi"/>
 			<Item Name="Get Module Type.vi" Type="VI" URL="../Get Module Type.vi"/>
 			<Item Name="Route Pin To String.vi" Type="VI" URL="../Route Pin To String.vi"/>
 			<Item Name="RT Init.vi" Type="VI" URL="../RT Init.vi"/>
-			<Item Name="Set NISync Plugin Timekeeper.vi" Type="VI" URL="../Set NISync Plugin Timekeeper.vi"/>
+			<Item Name="Set Timekeeper Card.vi" Type="VI" URL="../Set Timekeeper Card.vi"/>
 			<Item Name="Set Timekeeper CLK10 Input.vi" Type="VI" URL="../Set Timekeeper CLK10 Input.vi"/>
 			<Item Name="Set Up Clock Discipline.vi" Type="VI" URL="../Set Up Clock Discipline.vi"/>
 			<Item Name="Set Up TimeKeeper.vi" Type="VI" URL="../Set Up TimeKeeper.vi"/>
 		</Item>
 		<Item Name="Run" Type="Folder">
 			<Item Name="Conditionally Increment Data At Index.vi" Type="VI" URL="../Conditionally Increment Data At Index.vi"/>
-			<Item Name="Read Clock Discipline.vi" Type="VI" URL="../Read Clock Discipline.vi"/>
 			<Item Name="Read Time Sync.vi" Type="VI" URL="../Read Time Sync.vi"/>
 			<Item Name="Write Output FIFO.vi" Type="VI" URL="../Write Output FIFO.vi"/>
 		</Item>
