@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>Chassis TimeSync</eng>
-    <loc>Chassis TimeSync</loc>
+    <eng>National Instruments::Chassis TimeSync</eng>
+    <loc>National Instruments::Chassis TimeSync</loc>
   </AddMenu>
   <Version>1.1.0</Version>
   <Type>Asynchronous Timing and Sync</Type>
