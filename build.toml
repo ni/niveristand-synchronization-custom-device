@@ -20,14 +20,5 @@ build_spec = 'Engine Release'
 
 [package]
 type = 'nipkg'
-name = 'chassis-timesync-custom-device-{veristand_version}'
-dev_xml_path = 'Source\Timing and Sync Chassis TimeSync.xml'
+payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Timing and Sync'
-
-[[release.steps]]
-name = 'Master Release'
-type = 'githubRelease'
-2015_release_branches = ["master",]
-2016_release_branches = ["master",]
-2017_release_branches = ["master",]
-2018_release_branches = ["master",]
