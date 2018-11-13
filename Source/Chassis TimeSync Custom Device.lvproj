@@ -18,6 +18,7 @@
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="System" Type="Folder">
+				<Item Name="Linux x64 System Tests.lvclass" Type="LVClass" URL="../Tests/System/Linux x64 System Tests/Linux x64 System Tests.lvclass"/>
 				<Item Name="PharLap System Tests.lvclass" Type="LVClass" URL="../Tests/System/PharLap System Tests/PharLap System Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
