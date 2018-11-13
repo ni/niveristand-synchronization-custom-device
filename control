@@ -1,23 +1,15 @@
-Package: chassis-timesync-custom-device-{veristand_version}
+Package: ni-chassis-timesync-veristand-{veristand_version}-support
 Version: {nipkg_version}
 Architecture: windows_x64
-Maintainer: National Instruments Systems Engineering
+Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description:  The Chassis TimeSync Custom Device synchronizes RT system time and PXI chassis clocks. This is accomplished by either reading the PXI chassis clock and setting system time, or by overwriting both system time and the PXI chassis clock when using an external time reference such as the free running clock of a Time-Based Synchronization module, 1588, GPS, PPS, or IRIG-B. This functionality is commonly used for data sampling synchronization and offline data correlation analysis.
-XB-Eula:  
+Description: Provides support for the Chassis TimeSync custom device for NI VeriStand {veristand_version}.
+  The Chassis TimeSync Custom Device synchronizes RT system time and PXI chassis clocks. This is accomplished by either reading the PXI chassis clock and setting system time, or by overwriting both system time and the PXI chassis clock when using an external time reference such as the free running clock of a Time-Based Synchronization module, 1588, GPS, PPS, or IRIG-B. This functionality is commonly used for data sampling synchronization and offline data correlation analysis.
+XB-Eula: eula-ni-standard
 Priority: standard
-Homepage: https://github.com/NIVeriStandAdd-Ons/Chassis-TimeSync-Custom-Device
+Homepage: http://www.ni.com
 XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
-XB-DisplayVersion: {nipkg_version}
-XB-DisplayName: Chassis TimeSync Custom Device for VeriStand {veristand_version}
-XB-Message: This package is provided under the Apache 2.0 open-source software license.
- Copyright 2018 National Instruments
- .
-  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at 
-  http://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and limitations under the License.
-Depends: 
+XB-DisplayVersion: {display_version}
+XB-DisplayName: NI Chassis TimeSync Custom Device for VeriStand {veristand_version}
