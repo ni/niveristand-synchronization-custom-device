@@ -440,20 +440,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DCDF4D1D-BA03-42DD-9DC0-EDEAAD0EB318}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Chassis TimeSync/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Chassis TimeSync Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Chassis TimeSync/Chassis TimeSync Configuration.llb</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI Synchronization/Data</Property>
+				<Property Name="Destination[2].destName" Type="Str">NI Synchronization Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI Synchronization/NI Synchronization Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7790F5BD-33B0-4FD4-AA64-700AF1255D00}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79F923E4-D657-449D-BFF6-0E97ECE349A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Timing and Sync Chassis TimeSync.xml</Property>
@@ -478,22 +478,22 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{797932FE-4C7B-400C-9D22-FC7C9390359C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Chassis TimeSync/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Chassis Sync Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Chassis TimeSync/Chassis TimeSync Configuration.llb</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/NI Synchronization/Data</Property>
+				<Property Name="Destination[2].destName" Type="Str">NI Synchronization Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/NI Synchronization/NI Synchronization Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D4DD232E-3B7A-460A-9262-D3288A3D6241}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{79F923E4-D657-449D-BFF6-0E97ECE349A9}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -836,21 +836,21 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Debug</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{942DE102-F604-41E5-B62E-8C0C5DD60125}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c/Chassis TimeSync Engine Pharlap.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/c/NI Synchronization Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Chassis TimeSync Engine Pharlap.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/NI Synchronization Engine Pharlap.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/c/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1C52477-D876-4C62-A1A4-299AB108E0C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B8858DCD-549A-4689-9198-021BD6935253}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/NI Synchronization Engine.lvlib/RT Driver VI.vi</Property>
@@ -863,14 +863,14 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{164A6894-71BF-4836-B683-38CA054135D1}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/c/Chassis TimeSync Engine Pharlap.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/c/NI Synchronization Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/c/Chassis TimeSync Engine Pharlap.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/NI Synchronization Engine Pharlap.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -879,7 +879,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D1C52477-D876-4C62-A1A4-299AB108E0C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B8858DCD-549A-4689-9198-021BD6935253}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
@@ -1218,22 +1218,22 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Chassis TimeSync</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F470845-1FAC-41D0-840A-117C01F76230}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/NI Synchronization Engine Linux_x64.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/NI Synchronization Engine Linux_x64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FCF70596-A9D7-41F9-9250-23C35A321FDD}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{90B3DBDE-4E70-4107-AD2B-BD526B28049D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/NI Synchronization Engine.lvlib/RT Driver VI.vi</Property>
