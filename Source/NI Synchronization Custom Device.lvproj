@@ -28,8 +28,8 @@
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy Builds To NIVS Dir.vi" Type="VI" URL="../Utility/Copy Builds To NIVS Dir.vi"/>
 		</Item>
-		<Item Name="Chassis TimeSync Shared.lvlib" Type="Library" URL="../Shared/Chassis TimeSync Shared.lvlib"/>
-		<Item Name="Chassis TimeSync System Explorer.lvlib" Type="Library" URL="../System Explorer/Chassis TimeSync System Explorer.lvlib"/>
+		<Item Name="NI Synchronization Shared.lvlib" Type="Library" URL="../Shared/NI Synchronization Shared.lvlib"/>
+		<Item Name="NI Synchronization System Explorer.lvlib" Type="Library" URL="../System Explorer/NI Synchronization System Explorer.lvlib"/>
 		<Item Name="Timing and Sync Chassis TimeSync.xml" Type="Document" URL="../Timing and Sync Chassis TimeSync.xml"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -459,15 +459,15 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Timing and Sync Chassis TimeSync.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer/Dynamically Called/SE Initialization VI.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/SE Initialization VI.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer/Dynamically Called/Main Page.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/Main Page.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
@@ -506,17 +506,17 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Timing and Sync Chassis TimeSync.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer/Dynamically Called/SE Initialization VI.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/SE Initialization VI.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer/Dynamically Called/Main Page.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/Main Page.vi</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Chassis TimeSync System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
@@ -547,7 +547,7 @@
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Chassis TimeSync Shared.lvlib/Shared</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/NI Synchronization Shared.lvlib/Shared</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
@@ -617,8 +617,8 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="Chassis TimeSync Engine.lvlib" Type="Library" URL="../Engine/Chassis TimeSync Engine.lvlib"/>
-		<Item Name="Chassis TimeSync Shared.lvlib" Type="Library" URL="../Shared/Chassis TimeSync Shared.lvlib"/>
+		<Item Name="NI Synchronization Engine.lvlib" Type="Library" URL="../Engine/NI Synchronization Engine.lvlib"/>
+		<Item Name="NI Synchronization Shared.lvlib" Type="Library" URL="../Shared/NI Synchronization Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSync Clear Clock.vi" Type="VI" URL="/&lt;instrlib&gt;/niSync/niSync.llb/niSync Clear Clock.vi"/>
@@ -853,7 +853,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{D1C52477-D876-4C62-A1A4-299AB108E0C8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/NI Synchronization Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -889,7 +889,7 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Pharlap/NI Synchronization Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -901,7 +901,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/Pharlap/Chassis TimeSync Engine.lvlib/Engine</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/Pharlap/NI Synchronization Engine.lvlib/Engine</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -916,7 +916,7 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/Pharlap/Chassis TimeSync Shared.lvlib/Shared</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/Pharlap/NI Synchronization Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Auto error handling</Property>
@@ -999,8 +999,8 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="Chassis TimeSync Engine.lvlib" Type="Library" URL="../Engine/Chassis TimeSync Engine.lvlib"/>
-		<Item Name="Chassis TimeSync Shared.lvlib" Type="Library" URL="../Shared/Chassis TimeSync Shared.lvlib"/>
+		<Item Name="NI Synchronization Engine.lvlib" Type="Library" URL="../Engine/NI Synchronization Engine.lvlib"/>
+		<Item Name="NI Synchronization Shared.lvlib" Type="Library" URL="../Shared/NI Synchronization Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niSync Clear Clock.vi" Type="VI" URL="/&lt;instrlib&gt;/niSync/niSync.llb/niSync Clear Clock.vi"/>
@@ -1223,7 +1223,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{7F470845-1FAC-41D0-840A-117C01F76230}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Chassis TimeSync Engine Linux_x64.llb</Property>
@@ -1236,7 +1236,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{FCF70596-A9D7-41F9-9250-23C35A321FDD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/Chassis TimeSync Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/NI Synchronization Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
