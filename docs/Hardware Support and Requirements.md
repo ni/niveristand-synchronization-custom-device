@@ -2,7 +2,7 @@
 
 ## Supported Time References
 
-The Chassis TimeSync custom device provides support for synchronization between PXI modules and PXI chassis, including both the system time and chassis reference clock.
+The NI Synchronization custom device provides support for synchronization between PXI modules and PXI chassis, including both the system time and chassis reference clock.
 The following time references are supported:
 
 - GPS
@@ -18,7 +18,7 @@ Time reference support varies per real-time operating system based on the versio
 
 ## Hardware Support
 
-The hardware supported by the Chassis TimeSync custom device varies depending on the real-time operating system used.
+The hardware supported by the NI Synchronization custom device varies depending on the real-time operating system used.
 
 ### PharLap
 
