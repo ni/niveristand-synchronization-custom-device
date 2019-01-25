@@ -1,11 +1,11 @@
-# Contributing to niveristand-chassis-timesync-custom-device
+# Contributing to niveristand-synchronization-custom-device
 
-Contributions to niveristand-chassis-timesync-custom-device are welcome from all!
+Contributions to niveristand-synchronization-custom-device are welcome from all!
 
-niveristand-chassis-timesync-custom-device is managed via [git](https://git-scm.com), with the canonical upstream
-repository hosted on [GitHub](https://github.com/ni/niveristand-chassis-timesync-custom-device/).
+niveristand-synchronization-custom-device is managed via [git](https://git-scm.com), with the canonical upstream
+repository hosted on [GitHub](https://github.com/ni/niveristand-synchronization-custom-device/).
 
-niveristand-chassis-timesync-custom-device follows a pull-request model for development.  If you wish to
+niveristand-synchronization-custom-device follows a pull-request model for development.  If you wish to
 contribute, you will need to create a GitHub account, fork this project, push a
 branch with your changes to your project, and then submit a pull request.
 
@@ -56,5 +56,5 @@ adjacent to the system definition.
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-chassis-timesync-custom-device/blob/master/LICENSE)
-for details about how niveristand-chassis-timesync-custom-device is licensed.
+See [LICENSE](https://github.com/ni/niveristand-synchronization-custom-device/blob/master/LICENSE)
+for details about how niveristand-synchronization-custom-device is licensed.
