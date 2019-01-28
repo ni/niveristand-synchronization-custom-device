@@ -22,7 +22,7 @@
 				<Item Name="PharLap System Tests.lvclass" Type="LVClass" URL="../Tests/System/PharLap System Tests/PharLap System Tests.lvclass"/>
 			</Item>
 			<Item Name="Unit" Type="Folder">
-				<Item Name="Chassis TimeSync Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/Chassis TimeSync Unit Tests.lvclass"/>
+				<Item Name="NI Synchronization Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/NI Synchronization Unit Tests.lvclass"/>
 			</Item>
 		</Item>
 		<Item Name="Utility" Type="Folder">
