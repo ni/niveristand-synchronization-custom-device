@@ -8,7 +8,7 @@
   <Version>2.0.0</Version>
   <Type>Asynchronous Timing and Sync</Type>
   <MaxOccurrence>1</MaxOccurrence>
-  <MainPageGUID>85FE1586-82E1-A7AD-798B-5599EFFC50EE</MainPageGUID>
+  <MainPageGUID>A8FB4E16-4CF0-4B02-969D-2913C88371F2</MainPageGUID>
   <InitializationVI>
     <Type>Action</Type>
     <Item2Launch>
@@ -44,7 +44,7 @@
         <loc>NI Synchronization</loc>
       </Name>
 		<Copy>Copy</Copy>
-      <GUID>85FE1586-82E1-A7AD-798B-5599EFFC50EE</GUID>
+      <GUID>A8FB4E16-4CF0-4B02-969D-2913C88371F2</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
 			<Path>System Explorer\Glyphs\timing.png</Path>
