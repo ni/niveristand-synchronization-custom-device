@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
 	<Version Major="2015" Minor="1" Fix="0" Build="0" />
@@ -10,7 +10,7 @@
 				<String>1588</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.5</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -120,7 +120,7 @@
 							<Description />
 							<Properties />
 							<Errors />
-							<Section Name="Chassis TimeSync" TypeGUID="85FE1586-82E1-A7AD-798B-5599EFFC50EE">
+							<Section Name="NI Synchronization" TypeGUID="A8FB4E16-4CF0-4B02-969D-2913C88371F2">
 								<Description />
 								<Properties>
 									<Property Name="CD Status">
@@ -130,37 +130,34 @@
 										<U32>4</U32>
 									</Property>
 									<Property Name="Driver VI Path_0">
-										<DependentFile Type="To Common Doc Dir" Path="Timing and Sync\Chassis TimeSync\Linux_x64\Chassis TimeSync Engine Linux_x64.llb\RT Driver VI.vi">
-											<Version>1.1.0</Version>
+										<DependentFile Type="To Common Doc Dir" Path="Timing and Sync\National Instruments\NI Synchronization\Linux_x64\NI Synchronization Engine Linux_x64.llb\RT Driver VI.vi">
+											<Version>2.0.0</Version>
 											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Chassis TimeSync\Chassis TimeSync Engine Linux_x64.llb\RT Driver VI.vi</RTDestination>
+											<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\NI Synchronization\NI Synchronization Engine Linux_x64.llb\RT Driver VI.vi</RTDestination>
 											<SupportedTarget>Linux_x64</SupportedTarget>
 											<MD5 />
 										</DependentFile>
 									</Property>
 									<Property Name="Driver VI Path_1">
-										<DependentFile Type="To Common Doc Dir" Path="Timing and Sync\Chassis TimeSync\c\Chassis TimeSync Engine Pharlap.llb\RT Driver VI.vi">
-											<Version>1.1.0</Version>
+										<DependentFile Type="To Common Doc Dir" Path="Timing and Sync\National Instruments\NI Synchronization\c\NI Synchronization Engine Pharlap.llb\RT Driver VI.vi">
+											<Version>2.0.0</Version>
 											<ForceDownload>false</ForceDownload>
-											<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\Chassis TimeSync\Chassis TimeSync Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+											<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\National Instruments\NI Synchronization\NI Synchronization Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 											<SupportedTarget>PharLap</SupportedTarget>
 											<MD5 />
 										</DependentFile>
 									</Property>
 									<Property Name="Version">
-										<String>1.1.0</String>
+										<String>2.0.0</String>
 									</Property>
 									<Property Name="user.CD.I can drive RTSI0">
 										<Boolean>true</Boolean>
 									</Property>
-									<Property Name="user.CD.SyncModule?">
-										<Boolean>false</Boolean>
+									<Property Name="user.CD.TimeKeeper">
+										<String>6683H</String>
 									</Property>
 									<Property Name="user.CD.TimeRef">
 										<U16>3</U16>
-									</Property>
-									<Property Name="user.CD.TimeKeeper">
-										<String>6683H</String>
 									</Property>
 								</Properties>
 								<Errors />
