@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\nirvana\temp\vs_cds\ni_synchronization_custom_device'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
 
 [projects.cd]
 path = 'Source\NI Synchronization Custom Device.lvproj'
