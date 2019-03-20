@@ -1,10 +1,10 @@
-Package: ni-chassis-timesync-veristand-{veristand_version}-support
+Package: ni-synchronization-veristand-{veristand_version}-support
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
-Description: Provides support for the Chassis TimeSync custom device for NI VeriStand {veristand_version}.
-  The Chassis TimeSync Custom Device synchronizes RT system time and PXI chassis clocks. This is accomplished by either reading the PXI chassis clock and setting system time, or by overwriting both system time and the PXI chassis clock when using an external time reference such as the free running clock of a Time-Based Synchronization module, 1588, GPS, PPS, or IRIG-B. This functionality is commonly used for data sampling synchronization and offline data correlation analysis.
+Description: Provides support for the NI Synchronization Custom Device for NI VeriStand {veristand_version}.
+  The NI Synchronization Custom Device synchronizes RT system time and PXI chassis clocks. This is accomplished by either reading the PXI chassis clock and setting system time, or by overwriting both system time and the PXI chassis clock when using an external time reference such as the free running clock of a Time-Based Synchronization module, 1588, GPS, PPS, or IRIG-B. This functionality is commonly used for data sampling synchronization and offline data correlation analysis.
 XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
@@ -12,4 +12,4 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {display_version}
-XB-DisplayName: NI Chassis TimeSync Custom Device for VeriStand {veristand_version}
+XB-DisplayName: NI Synchronization Custom Device for VeriStand {veristand_version}
