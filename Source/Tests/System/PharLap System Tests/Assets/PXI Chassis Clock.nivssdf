@@ -10,7 +10,7 @@
 				<String>PXI Chassis Clock</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.9</String>
+				<String>1.0.0.10</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -157,7 +157,7 @@
 										<String>6683H</String>
 									</Property>
 									<Property Name="user.CD.TimeRef">
-										<U16>6</U16>
+										<U16>5</U16>
 									</Property>
 								</Properties>
 								<Errors />
