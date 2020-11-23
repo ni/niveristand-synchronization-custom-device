@@ -22,3 +22,6 @@ build_spec = 'Engine Release'
 type = 'nipkg'
 payload_dir = 'Built'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Timing and Sync\National Instruments'
+
+[notification]
+type = 'teams'
