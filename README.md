@@ -4,7 +4,7 @@ The **NI Synchronization Custom Device** synchronizes RT system time and PXI cha
 
 ## LabVIEW Version
 
-LabVIEW 2015
+LabVIEW 2019
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
