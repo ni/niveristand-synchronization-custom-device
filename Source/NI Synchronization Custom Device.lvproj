@@ -28,6 +28,8 @@
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Copy Builds To NIVS Dir.vi" Type="VI" URL="../Utility/Copy Builds To NIVS Dir.vi"/>
+			<Item Name="Create Stub Files.vi" Type="VI" URL="../Utility/Create Stub Files.vi"/>
+			<Item Name="Pre-Build Action.vi" Type="VI" URL="../Utility/Pre-Build Action.vi"/>
 		</Item>
 		<Item Name="NI Synchronization Shared.lvlib" Type="Library" URL="../Shared/NI Synchronization Shared.lvlib"/>
 		<Item Name="NI Synchronization System Explorer.lvlib" Type="Library" URL="../System Explorer/NI Synchronization System Explorer.lvlib"/>
@@ -131,6 +133,7 @@
 				<Item Name="Convert EOLs (String)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs (String)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert EOLs__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Convert EOLs__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create File with Incrementing Suffix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Create File with Incrementing Suffix.vi"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (Boolean)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Delete Elements from 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
@@ -458,6 +461,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DCDF4D1D-BA03-42DD-9DC0-EDEAAD0EB318}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -468,7 +472,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI Synchronization/NI Synchronization Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D46CEF4B-4CD7-400B-A236-3B7735D80C05}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97381C70-75F9-402C-A320-15FD8CD30A50}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/SE Initialization VI.vi</Property>
@@ -496,6 +500,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{797932FE-4C7B-400C-9D22-FC7C9390359C}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -508,7 +513,7 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D46CEF4B-4CD7-400B-A236-3B7735D80C05}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{97381C70-75F9-402C-A320-15FD8CD30A50}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove front panel</Property>
