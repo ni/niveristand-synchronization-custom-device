@@ -7,6 +7,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			<Item Name="ActionVIOnDownload.vi" Type="VI" URL="../ActionVIOnDownload.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 			<Item Name="SE Initialization VI.vi" Type="VI" URL="../SE Initialization VI.vi"/>
 		</Item>
@@ -25,6 +26,7 @@
 			<Item Name="Get Time Ref Properties.vi" Type="VI" URL="../Get Time Ref Properties.vi"/>
 			<Item Name="Get Time Ref Tab.vi" Type="VI" URL="../Get Time Ref Tab.vi"/>
 			<Item Name="Init Main Page Connections GUI.vi" Type="VI" URL="../Init Main Page Connections GUI.vi"/>
+			<Item Name="niSync Initialize Advanced.vi" Type="VI" URL="../niSync Initialize Advanced.vi"/>
 			<Item Name="Prevent and Clear Backplane Time Ref Selection.vi" Type="VI" URL="../Prevent and Clear Backplane Time Ref Selection.vi"/>
 			<Item Name="Set Connection Properties.vi" Type="VI" URL="../Set Connection Properties.vi"/>
 			<Item Name="Set Custom Route Properties.vi" Type="VI" URL="../Set Custom Route Properties.vi"/>

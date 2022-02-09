@@ -45,6 +45,10 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Timing and Sync\National Instruments\NI Synchronization\NI Synchronization Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+			<ActionVIOnDownload>
+				<Type>To Common Doc Dir</Type>
+				<Path>Timing and Sync\National Instruments\NI Synchronization\NI Synchronization Configuration.llb\ActionVIOnDownload.vi</Path>
+			</ActionVIOnDownload>
 			<ActionVIOnCompile>
 				<Type>To Common Doc Dir</Type>
 				<Path>Timing and Sync\National Instruments\NI Synchronization\NI Synchronization Configuration.llb\ActionVIOnCompile.vi</Path>
