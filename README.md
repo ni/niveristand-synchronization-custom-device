@@ -5,7 +5,7 @@ The **NI Synchronization Custom Device** synchronizes RT system time and PXI cha
 ## Using the Custom Device
 
 - Download the latest release package from the [Releases page](https://github.com/ni/niveristand-synchronization-custom-device/releases).
-- See the [User Guide](Docs/User%20Guide.md) for a walkthrough of using the Custom Device.
+- See the [User Guide](docs/User%20Guide.md) for a walkthrough of using the Custom Device.
 
 ## LabVIEW Source Code Version
 
