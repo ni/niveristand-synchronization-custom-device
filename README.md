@@ -15,7 +15,7 @@ LabVIEW 2020
 
 ### Running the custom device
 
-- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 
 ### Real-Time target software components
 
@@ -24,7 +24,7 @@ LabVIEW 2020
 
 ### Developing or building from source
 
-- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [NI-Sync 20.0 or later](https://www.ni.com/en-us/support/downloads/drivers/download.ni-sync.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
