@@ -9,7 +9,7 @@ The **NI Synchronization Custom Device** synchronizes RT system time and PXI cha
 
 ## LabVIEW Source Code Version
 
-LabVIEW 2020
+LabVIEW 2024
 
 ## Dependencies
 
