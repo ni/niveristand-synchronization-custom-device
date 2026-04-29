@@ -467,6 +467,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/NI Synchronization</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy Builds To NIVS Dir.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{CC968EA6-6810-4226-9BC0-83B8AF7BF404}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -478,7 +479,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/NI Synchronization/NI Synchronization Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4DBD198E-07EA-44FF-9E38-73256C8A8ABA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3A6BA079-609D-49A6-9F71-93E58963B90D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/NI Synchronization System Explorer.lvlib/System Explorer/Dynamically Called/ActionVIOnCompile.vi</Property>
