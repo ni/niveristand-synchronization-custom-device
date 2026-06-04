@@ -35,7 +35,7 @@ stages:
           target: 'All'
           buildSpec: 'Engine Release'
 
-      releaseVersion: '26.0.0'
+      releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
 
