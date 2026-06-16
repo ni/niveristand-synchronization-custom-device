@@ -38,6 +38,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
+      repoName: 'niveristand-synchronization-custom-device'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
