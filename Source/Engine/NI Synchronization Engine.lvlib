@@ -11,6 +11,7 @@
 			<Item Name="Enhance niSync Error.vi" Type="VI" URL="../Enhance niSync Error.vi"/>
 			<Item Name="Fix EtherCAT Error.vi" Type="VI" URL="../Fix EtherCAT Error.vi"/>
 			<Item Name="Get Module Type.vi" Type="VI" URL="../Get Module Type.vi"/>
+			<Item Name="Parse Custom Route String.vi" Type="VI" URL="../Parse Custom Route String.vi"/>
 			<Item Name="Route Pin To String.vi" Type="VI" URL="../Route Pin To String.vi"/>
 			<Item Name="RT Init.vi" Type="VI" URL="../RT Init.vi"/>
 			<Item Name="Set Timekeeper Card.vi" Type="VI" URL="../Set Timekeeper Card.vi"/>
