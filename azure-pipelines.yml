@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: false
+    value: true
 
 resources:
   repositories:
