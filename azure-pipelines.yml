@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: false
+    value: true
 
 resources:
   repositories:
@@ -18,35 +18,71 @@ resources:
       name: ni/niveristand-custom-device-build-tools
 
 stages:
-  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
-    parameters:
-      lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '64bit'
-        - version: '2027'
-          bitness: '64bit'
 
-      buildSteps:
-        - projectLocation: 'Source\NI Synchronization Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpec'
-          target: 'My Computer'
-          buildSpec: 'Configuration Release'
+# =====================================================================
+# WINDOWS BUILD (Stage Template)
+# =====================================================================
+- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: WindowsBuild
+    
+    lvVersionsToBuild:
+      - version: '2024'
+        bitness: '64bit'
+      - version: '2025'
+        bitness: '64bit'
+      - version: '2026'
+        bitness: '64bit'
+      - version: '2027'
+        bitness: '64bit'
 
-        - projectLocation: 'Source\NI Synchronization Custom Device.lvproj'
-          buildOperation: 'ExecuteBuildSpecAllTargets'
-          target: 'All'
-          buildSpec: 'Engine Release'
+    buildSteps:
+      - projectLocation: 'Source\NI Synchronization Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration Release'
 
-      releaseVersion: '26.8.0'
-      buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
-      repoName: 'niveristand-synchronization-custom-device'
+      - projectLocation: 'Source\NI Synchronization Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpecAllTargets'
+        target: 'All'
+        buildSpec: 'Engine Release'
 
-      packages:
-        - controlFileName: 'control'
-          payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Timing and Sync\National Instruments'
+    releaseVersion: '26.8.0'
+    buildOutputLocation: 'Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
+    repoName: 'niveristand-synchronization-custom-device'
+
+    packages:
+      - controlFileName: 'control'
+        payloadMaps:
+          - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Timing and Sync\National Instruments'  
+
+# =====================================================================
+# LINUX BUILD
+# =====================================================================
+- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
+  parameters:
+    stageName: LinuxBuild
+
+    # If your linux-stage.yml supports these parameters:
+    dependsOn: 
+      - WindowsBuild
+
+    lvVersionsToBuild:
+      - version: '2026'
+        bitness: '64bit'
+
+    buildSteps:
+      - id: 'synchronization-custom-device-release-build'
+        projectLocation: 'Source/NI Synchronization Custom Device.lvproj'
+        buildOperation: 'ExecuteBuildSpec'
+        target: 'My Computer'
+        buildSpec: 'Configuration(Linux) Release'
+
+
+    releaseVersion: '26.5.0'
+    branch: 'main'
+    debugBuild: 'no'
+    buildOutputLocation: 'Built'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
+    repoName: 'niveristand-synchronization-custom-device'
