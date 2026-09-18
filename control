@@ -13,7 +13,6 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI Synchronization Custom Device for VeriStand {veristand_version}
-Depends: ni-veristand-{labview_version} (>= {labview_short_version}.0.0)
 Description-zh-CN: 为NI VeriStand {veristand_version}提供NI Synchronization自定义设备支持。NI Synchronization自定义设备同步RT系统和PXI机箱的时间。可通过下列方法实现同步：读取PXI机箱时钟并设置系统时间，或使用外部时间参考覆盖系统时间和PXI机箱时钟。外部时间参考可以是时基同步模块、1588、GPS、PPS,、IRIG-B。该功能常用于数据采样同步和离线数据关联分析
 XB-DisplayName-zh-CN: NI Synchronization Custom Device for VeriStand {veristand_version}
 Description-de: Stellt Unterstützung für NI Synchronization Custom Device für NI VeriStand {veristand_version} bereit. Benutzerdefinierte Synchronisationsgeräte von NI synchronisieren die RT-Systemzeit und die Taktgeber des PXI-Chassis. Dies kann entweder durch Abfragen des PXI-Chassis-Takts und Einstellen der Systemzeit oder durch Überschreiben der Systemzeit und des PXI-Chassis-Takts erfolgen, wenn eine externe Zeitreferenz wie der frei laufende Takt eines zeitbasierten Synchronisationsmoduls, 1588, GPS, PPS, oder IRIG-B verwendet wird. Diese Funktion wird häufig für die Synchronisation von Datenabtastungen und für Offline-Datenkorrelationsanalysen verwendet
