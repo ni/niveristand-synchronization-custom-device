@@ -49,4 +49,4 @@ stages:
       packages:
         - controlFileName: 'control'
           payloadMaps:
-            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Timing and Sync\National Instruments'
+            - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Timing and Sync\National Instruments'
