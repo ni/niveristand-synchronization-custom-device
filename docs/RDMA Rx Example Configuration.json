@@ -1,0 +1,91 @@
+{
+    "dsfversion": {
+        "major": 1,
+        "minor": 4,
+        "fix": 0,
+        "build": ""
+    },
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "fix": 0,
+        "build": ""
+    },
+    "configuration": {
+        "plugins": [
+            {
+                "core": {
+                    "name": "Plugin",
+                    "components": [
+                        "RDMA"
+                    ],
+                    "cycle timing": {
+                        "priority": 100,
+                        "decimation": 0,
+                        "offset": 0
+                    }
+                },
+                "component settings": [],
+                "threads": [
+                    {
+                        "core": {
+                            "processor": -2,
+                            "priority offset": 0
+                        },
+                        "component settings": [],
+                        "transfer groups": [
+                            {
+                                "core": {
+                                    "name": "Group 0",
+                                    "direction": 1,
+                                    "cycle timing": {
+                                        "priority": 100,
+                                        "decimation": 0,
+                                        "offset": 0
+                                    },
+                                    "timeout behavior": 0,
+                                    "enable conversion": false
+                                },
+                                "component settings": [],
+                                "transfers": [
+                                    {
+                                        "core": {
+                                            "name": "Transfer 0"
+                                        },
+                                        "component settings": [
+                                            {
+                                                "component": "RDMA",
+                                                "values": [
+                                                    {
+                                                        "key": "local address",
+                                                        "value": "22.22.22.22"
+                                                    },
+                                                    {
+                                                        "key": "local port",
+                                                        "value": "61650"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "channels": [
+                                            {
+                                                "core": {
+                                                    "name": "Channel 0",
+                                                    "units": " ",
+                                                    "engine data type": 2,
+                                                    "string data type": 2,
+                                                    "string offset": 0
+                                                },
+                                                "component settings": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

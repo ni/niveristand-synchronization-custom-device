@@ -21,12 +21,6 @@ stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
       lvVersionsToBuild:
-        - version: '2024'
-          bitness: '64bit'
-        - version: '2025'
-          bitness: '64bit'
-        - version: '2026'
-          bitness: '64bit'
         - version: '2027'
           bitness: '64bit'
 
@@ -41,9 +35,9 @@ stages:
           target: 'All'
           buildSpec: 'Engine Release'
 
-      releaseVersion: '26.8.0'
+      releaseVersion: '27.0.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_synchronization_custom_device'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\ni_synchronization_custom_device'
       repoName: 'niveristand-synchronization-custom-device'
 
       packages:
